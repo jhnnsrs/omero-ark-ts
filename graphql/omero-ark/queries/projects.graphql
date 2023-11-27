@@ -1,0 +1,14 @@
+query ListProjects {
+  projects {
+    name
+    description
+    datasets {
+        name
+        description#
+        images {
+            name
+            acquisitionDate
+        }
+    }
+  }
+}
